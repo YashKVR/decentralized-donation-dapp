@@ -17,13 +17,13 @@ const Nav = () => {
             {/* Menu */}
             <ul className="hidden lg:flex space-x-5">
                 <li className="cursor-pointer hover:font-bold font-semibold">
-                    <Link to="donation" smooth={true} duration={500} >
-                        Donation
+                    <Link to="mission" smooth={true} duration={500} >
+                        Mission
                     </Link>
                 </li>
                 <li className="cursor-pointer hover:font-bold font-semibold">
-                    <Link to="mission" smooth={true} duration={500} >
-                        Mission
+                    <Link to="donation" smooth={true} duration={500} >
+                        Donation
                     </Link>
                 </li>
                 <li className="cursor-pointer hover:font-bold font-semibold">
@@ -45,16 +45,16 @@ const Nav = () => {
 
             {/* Mobile Menu */}
             <ul className={
-                !nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+                !nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#CCF3EE] flex flex-col justify-center items-center'
             }>
-                <li className='py-6 text-4xl'>
-                    <Link onClick={handleClick} to="donation" smooth={true} duration={500} >
-                        Donation
-                    </Link>
-                </li>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="mission" smooth={true} duration={500} >
                         Mission
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to="donation" smooth={true} duration={500} >
+                        Donation
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="about" smooth={true} duration={500} >
