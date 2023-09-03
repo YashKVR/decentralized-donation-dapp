@@ -7,31 +7,31 @@ const Nav = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#97C4B8]">
             <div>
                 <Link to="hero" smooth={true} duration={500}>
-                    <img src="" alt="Logo" style={{ width: '50px' }} className="rounded" />
+                    <img src="https://imgur.com/KsQqv8V.png" alt="Logo" style={{ width: '50px' }} className="rounded" />
                 </Link>
             </div>
 
             {/* Menu */}
             <ul className="hidden lg:flex space-x-5">
-                <li>
+                <li className="cursor-pointer hover:font-bold font-semibold">
                     <Link to="donation" smooth={true} duration={500} >
                         Donation
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer hover:font-bold font-semibold">
                     <Link to="mission" smooth={true} duration={500} >
                         Mission
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer hover:font-bold font-semibold">
                     <Link to="about" smooth={true} duration={500} >
                         About
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer hover:font-bold font-semibold">
                     <Link to="contact" smooth={true} duration={500} >
                         Contact
                     </Link>

@@ -11,8 +11,8 @@ export default function Home() {
       <Nav />
       <section className="">
         <Hero />
-        <Donation />
         <Mission />
+        <Donation />
         <About />
         <Contact />
       </section>
