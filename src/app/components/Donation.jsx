@@ -62,15 +62,63 @@ const Donation = () => {
             </div>
 
             {/* For Mobile and Tablet only */}
-            <div className="border-2 border-red-500 lg:hidden flex flex-col space-y-5">
-                <div className="border-2 border-red-500 flex flex-col items-center w-[90vw] h-[25vh]">
-                    <img src="https://imgur.com/w50cIQI.png" alt="" className="h-20" />
+            <div className="lg:hidden flex flex-col space-y-5">
+
+                <div className="bg-[#eeecff] border-[#eeecff] rounded-xl drop-shadow-md flex items-center w-[90vw] h-[25vh] justify-between md:p-10 p-2">
+                    <img src="https://imgur.com/2R8AAo6.png" alt="" className="w-[100px] md:w-[200px]" />
+                    <div>
+                        <h3 className="text-xl md:text-2xl font-semibold pb-3">Gold Donator</h3>
+                        <ul className="space-y-3">
+                            <li className="list-disc">
+                                Donation Price: 100 Matic
+                            </li>
+                            <li className="list-disc">
+                                SBT Mint: Yes
+                            </li>
+                        </ul>
+                        <motion.button
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            className="text-md md:text-xl font-semibold bg-[#950101] text-white px-2 py-1 rounded-lg hover:bg-[#FF0000] cursor-pointer mt-5">Become Gold Donator</motion.button>
+                    </div>
                 </div>
-                <div className="border-2 border-red-500 flex flex-col items-center w-[90vw] h-[25vh]">
-                    <img src="https://imgur.com/w50cIQI.png" alt="" className="h-20" />
+
+                <div className="bg-[#eeecff] border-[#eeecff] rounded-xl drop-shadow-md flex items-center w-[90vw] h-[25vh] justify-between md:p-10 p-2">
+                    <img src="https://imgur.com/zFLNG6f.png" alt="" className="w-[100px] md:w-[200px]" />
+                    <div>
+                        <h3 className="text-xl md:text-2xl font-semibold pb-3">Silver Donator</h3>
+                        <ul className="space-y-3">
+                            <li className="list-disc">
+                                Donation Price: 50 Matic
+                            </li>
+                            <li className="list-disc">
+                                SBT Mint: Yes
+                            </li>
+                        </ul>
+                        <motion.button
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            className="text-md md:text-xl font-semibold bg-[#950101] text-white px-2 py-1 rounded-lg hover:bg-[#FF0000] cursor-pointer mt-5">Become Silver Donator</motion.button>
+                    </div>
                 </div>
-                <div className="border-2 border-red-500 flex flex-col items-center w-[90vw] h-[25vh]">
-                    <img src="https://imgur.com/w50cIQI.png" alt="" className="h-20" />
+
+                <div className="bg-[#eeecff] border-[#eeecff] rounded-xl drop-shadow-md flex items-center w-[90vw] h-[25vh] justify-between md:p-10 p-2">
+                    <img src="https://imgur.com/hcme2tO.png" alt="" className="w-[100px] md:w-[200px]" />
+                    <div>
+                        <h3 className="text-xl md:text-2xl font-semibold pb-3">Bronze Donator</h3>
+                        <ul className="space-y-3">
+                            <li className="list-disc">
+                                Donation Price: 5 Matic
+                            </li>
+                            <li className="list-disc">
+                                SBT Mint: Yes
+                            </li>
+                        </ul>
+                        <motion.button
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            className="text-md md:text-xl font-semibold bg-[#950101] text-white px-2 py-1 rounded-lg hover:bg-[#FF0000] cursor-pointer mt-5">Become Bronze Donator</motion.button>
+                    </div>
                 </div>
             </div>
 
