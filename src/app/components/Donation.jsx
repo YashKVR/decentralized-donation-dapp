@@ -27,7 +27,7 @@ const Donation = () => {
                 </div>
 
                 <div className="bg-[#eeecff] border-[#eeecff] rounded-3xl drop-shadow-lg flex flex-col items-center w-[30vw] h-[70vh] justify-between">
-                    <img src="https://imgur.com/1Ueqbbg.png" alt="" className="h-[300px]" />
+                    <img src="https://imgur.com/2R8AAo6.png" alt="" className="h-[300px]" />
                     <h3 className="text-2xl font-semibold pb-3">Gold Donator</h3>
                     <ul className="space-y-3">
                         <li className="list-disc">
@@ -44,7 +44,7 @@ const Donation = () => {
                 </div>
 
                 <div className="bg-[#eeecff] border-[#eeecff] rounded-3xl drop-shadow-lg flex flex-col items-center w-[30vw] h-[70vh] justify-between">
-                    <img src="https://imgur.com/JXDFUCt.png" alt="" className="h-[300px]" />
+                    <img src="https://imgur.com/zFLNG6f.png" alt="" className="h-[300px]" />
                     <h3 className="text-2xl font-semibold pb-3">Silver Donator</h3>
                     <ul className="space-y-3">
                         <li className="list-disc">
