@@ -7,7 +7,7 @@ const Nav = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#97C4B8]">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#97C4B8] z-10">
             <div>
                 <Link to="hero" smooth={true} duration={500}>
                     <img src="https://imgur.com/KsQqv8V.png" alt="Logo" style={{ width: '50px' }} className="rounded" />
