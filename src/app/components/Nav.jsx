@@ -10,7 +10,7 @@ const Nav = () => {
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#97C4B8] z-10">
             <div>
                 <Link to="hero" smooth={true} duration={500}>
-                    <img src="https://imgur.com/KsQqv8V.png" alt="Logo" style={{ width: '50px' }} className="rounded" />
+                    <img src="https://imgur.com/ooU8N2U.png" alt="Logo" style={{ width: '50px' }} className="rounded" />
                 </Link>
             </div>
 
